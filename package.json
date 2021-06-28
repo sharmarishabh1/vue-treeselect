@@ -28,7 +28,8 @@
     "lint:css": "stylelint '**/*.less'",
     "lint": "npm run lint:js && npm run lint:css",
     "verify-builds": "size-limit && node build/verify-builds.js",
-    "finish": "npm test && npm run build-library && npm run verify-builds"
+    "finish": "npm test && npm run build-library && npm run verify-builds",
+    "prepare": "npm run build-library"
   },
   "pre-commit": "lint",
   "dependencies": {
