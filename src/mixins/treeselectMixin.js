@@ -380,7 +380,7 @@ export default {
     /**
      * The maximum number of matched leaf/branch nodes which should be expanded during local search
      */
-     maxExpandMatchesOnSearch: {
+    maxExpandMatchesOnSearch: {
       type: Number,
       default: Infinity,
     },
@@ -419,7 +419,7 @@ export default {
     /**
      * On search the options should not expand to show matched nodes at all
      */
-     noExpandOnSearch: {
+    noExpandOnSearch: {
       type: Boolean,
       default: false,
     },
@@ -537,7 +537,7 @@ export default {
     /**
      * Minimum number of character after the search should be preformed
      */
-     searchMinInputLength: {
+    searchMinInputLength: {
       type: Number,
       default: 1,
     },
